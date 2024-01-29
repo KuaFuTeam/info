@@ -1,25 +1,20 @@
 ---
-title: "Example Post"
-description: "Just an example post."
-summary: "You can use blog posts for announcing product updates and features."
-date: 2023-09-07T16:27:22+02:00
-lastmod: 2023-09-07T16:27:22+02:00
+title: "启程之诗"
+description: "岁月如歌，而今启程。"
+summary: "岁月如歌，而今启程。"
+date: 2024-01-29T15:47:38+08:00
+lastmod: 2024-01-29T15:47:38+08:00
 draft: false
-weight: 50
+weight: 100
 categories: []
 tags: []
-contributors: []
+contributors: ["Clouder"]
 pinned: false
 homepage: false
 seo:
-  title: "" # custom title (optional)
-  description: "" # custom description (recommended)
-  canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
 
-Well-thought-through product announcements will help increase feature awareness and engage users with new functionality. Just like [sharing your public roadmap](https://canny.io/blog/should-you-have-a-public-roadmap/), it's also a great way to let potential customers see that you're constantly improving.
+哇了不起，原来这个主题的 Blog 页面是有摘要显示功能的呀。早知道我[之前]({{<ref "/docs/collections/damn-hugo-setup#添加前置-metadata-展示">}})可以直接抄了。不过没我做的好看 😙
 
-## Further reading
-
-- Read [How to announce product updates and features](https://canny.io/blog/announce-product-updates-features/)
+话不多说，这篇文章只是为了测试一下功能。

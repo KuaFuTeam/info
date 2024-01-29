@@ -1,13 +1,13 @@
 ---
-title : "Welcome to Doks"
+title : "我的大学"
 description: ""
-lead: "Congrats on setting up a new Doks project!"
+lead: "这是什么？这是什么？这是什么？"
 date: 2023-09-07T16:33:54+02:00
 lastmod: 2023-09-07T16:33:54+02:00
 draft: false
 seo:
- title: "Welcome to Doks" # custom title (optional)
- description: "" # custom description (recommended)
- canonical: "" # custom canonical URL (optional)
+#  title: "Welcome to Doks" # custom title (optional)
+#  description: "" # custom description (recommended)
+#  canonical: "" # custom canonical URL (optional)
  noindex: false # false (default) or true
 ---

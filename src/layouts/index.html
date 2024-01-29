@@ -6,7 +6,6 @@
     </div>
     <div class="col-lg-9 col-xl-8 text-center">
       <p class="lead">{{ .Params.lead | safeHTML }}</p>
-      <a class="btn btn-primary btn-cta rounded-pill btn-lg my-3" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}guides/example-guide/" role="button">{{ i18n "get_started" }}</a>
       {{ .Content }}
     </div>
   </div>
@@ -19,30 +18,37 @@
     <div class="bg-dots"></div>
   </div>
   {{ end -}}
-  {{ if eq $.Site.Language.LanguageName "English" }}
+  {{ if eq $.Site.Language.LanguageCode "zh-cn" }}
   <section class="section section-md section-features">
-    <div class="container">
+    <div class="container p-4">
       <div class="row justify-content-center text-center">
-        <div class="col-lg-5">
-          <h2 class="h4">Update content</h2>
-          <p>Edit <code>content/_index.md</code> to see this page change.</p>
+        <div class="col-lg-5 p-2">
+          <h2 class="h4">这是什么？</h2>
+          <p>某不知名野生 APP 施工现场，充满了混沌邪恶的吐槽与捕风捉影的线索泄露...</p>
+          <p>什么，所以这到底是什么？继续前进吧，往下阅读吧。</p>
         </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Add new content</h2>
-          <p>Add Markdown files to <code>content</code> to create new pages.</p>
+        <div class="col-lg-5 p-2">
+          <h2 class="h4">你是什么？</h2>
+          <p>我是谁？我来自哪里？我要去干什么？在回答这些深奥的问题之前，不妨先阅读我们的<a href="/about">关于</a>栏目。</p>
+          <p>如果没有找到答案的话...加入组织调查调查？百闻不如一见，你会明白的。</p>
         </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Configure your site</h2>
-          <p>Edit your config in <code>config/_default/hyas/doks.toml</code>.</p>
+        <div class="col-lg-5 p-2">
+          <h2 class="h4">我是什么？</h2>
+          <p>重要的或许并非你是什么，而是你<u>愿意成为什么</u>。<del>你所热爱的，就是你的生活。</del></p>
+          <p>恣意探索的观光游客？古道热肠的前瞻用户？又或者是...我们之一？</p>
+          <p>这将由你自己定义。</p>
         </div>
-        <div class="col-lg-5">
-          <h2 class="h4">Read the docs</h2>
-          <p>Learn more in the <a href="https://getdoks.org/">Docs</a>.</p>
+        <div class="col-lg-5 p-2">
         </div>
+      </div>
+      <div class="justify-content-center text-center">
+        <h2 class="h4">慢着，我还是一头雾水：</h2>
+        <p>上路吧，前方会有你想要的答案。</p>
       </div>
     </div>
   </section>
-  {{ end }}
+    {{ end }}
+  
 {{ end }}
 
 {{ define "sidebar-footer" }}
@@ -50,8 +56,8 @@
 <section class="section section-md container-fluid bg-light">
   <div class="row justify-content-center text-center">
     <div class="col-lg-7">
-      <h2 class="mt-2">Start building with Doks today</h2>
-      <a class="btn btn-primary rounded-pill px-4 my-2" href="/docs/{{ if site.Params.doks.docsVersioning }}{{ site.Params.doks.docsVersion }}/{{ end }}prologue/introduction/" role="button">{{ i18n "get-started" }}</a>
+      <h2 class="mt-2">准备就绪，即将前往的目的地是:「施工前线」。</h2>
+      <a class="btn btn-primary rounded-pill px-4 my-2" href="/docs/pieces/施工前线/" role="button">立即出发</a>
     </div>
   </div>
 </section>

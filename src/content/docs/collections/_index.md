@@ -1,14 +1,10 @@
 ---
-title: "Reference"
+title: "见闻录"
 description: ""
 summary: ""
 date: 2023-09-07T16:12:37+02:00
 lastmod: 2023-09-07T16:12:37+02:00
 draft: false
-menu:
-  docs:
-    parent: ""
-    identifier: "reference-22e9ba8aefa7ef9891199cf8db3a08cd"
 weight: 900
 toc: true
 seo:
@@ -17,3 +13,5 @@ seo:
   canonical: "" # custom canonical URL (optional)
   noindex: false # false (default) or true
 ---
+
+来自虚空的神秘讯息……现代学者整理汇编、悉心记录。

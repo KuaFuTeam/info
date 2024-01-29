@@ -1,4 +1,4 @@
-title = "My Docs"
+title = "野生 APP 开发记录"
 baseurl = "/"
 canonifyURLs = false
 disableAliases = true
@@ -7,17 +7,17 @@ disableHugoGeneratorInject = true
 enableEmoji = true
 enableGitInfo = false
 enableRobotsTXT = true
-languageCode = "en-US"
+languageCode = "zh-CN"
 paginate = 10
 rssLimit = 10
-summarylength = 20 # 70 (default)
+summarylength = 30 # 70 (default)
 
 # Multilingual
-defaultContentLanguage = "en"
+defaultContentLanguage = "zh-cn"
 disableLanguages = ["de", "nl"]
 defaultContentLanguageInSubdir = false
 
-copyRight = "Copyright (c) 2020-2024 Hyas"
+copyRight = "Copyright (c) 2023-2024"
 
 [build.buildStats]
   enable = true
