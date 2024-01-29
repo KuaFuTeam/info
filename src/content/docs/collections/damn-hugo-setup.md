@@ -1,7 +1,7 @@
 ---
 title: "那些年我大战 Hugo & Doks 的曾经"
-description: "Google 背书？Hugo 生态？成熟稳定开箱即用？认真你就输了。"
-summary: "Google 背书？Hugo 生态？成熟稳定开箱即用？认真你就输了。"
+description: "Netlify 背书？Hugo 生态？成熟稳定开箱即用？认真你就输了。"
+summary: "Netlify 背书？Hugo 生态？成熟稳定开箱即用？认真你就输了。"
 date: 2024-01-29T15:03:18+08:00
 lastmod: 2024-01-29T15:03:18+08:00
 draft: false
