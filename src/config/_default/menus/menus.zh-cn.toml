@@ -20,7 +20,7 @@
 
 [[main]]
   name = "加入组织"
-  url = "https://qm.qq.com/cgi-bin/qm/qr?k=kCaE8yxLwh_wrP2ceLyofhfR8veyxrLb&jump_from=webapi&authKey=gcYEIPdGltCgtdKs5C8dNv3WR6o+nbnQLPYITFDfuszeP4aufl5htj8DPkOzVSWw"
+  url = "/join"
   weight = 50
 
 [[social]]
