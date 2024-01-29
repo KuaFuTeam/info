@@ -105,6 +105,13 @@ mainSections = ["docs"]
 
 # Images (@hyas/images)
 [hyas_images]
+  [hyas_images.defaults]
+    decoding = "async" # sync, async, or auto (default)
+    fetchpriority = "auto" # high, low, or auto (default) 
+    loading = "lazy" # eager or lazy (default)
+    widths = [480, 576, 768, 1025, 1200, 1440, 1600, 1920] # [640, 768, 1024, 1366, 1600, 1920] for example
+    sizes="75vw"
+    process=""
   [hyas_images.landscape]
     normalize = "1360x765" # "1600x900" (default)
     lqip = "16x9" # "16x9" (default)

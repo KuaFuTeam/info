@@ -1,1 +1,15 @@
 // Put your custom SCSS code here
+img {
+    height: auto;
+    max-width: 100%;
+  }
+  
+img, picture {
+  font-size: 0;
+}
+  
+figcaption {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  font-style: italic;
+}

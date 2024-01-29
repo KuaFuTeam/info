@@ -79,8 +79,7 @@ copyRight = "Copyright (c) 2023-2024"
       weight = 10
 
 [imaging]
-  anchor = "Center"
   bgColor = "#ffffff"
-  hint = "photo"
+  hint = "picture"
   quality = 85
   resampleFilter = "Lanczos"
